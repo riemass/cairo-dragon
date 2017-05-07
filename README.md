@@ -1,9 +1,18 @@
 # Dragon curve program
 
-Spreads the dragon's wings over the 2d plane. 
+![Dragon curve](./example.svg)
 
-Compile with cairo libs (_make_ should take care of that), run with 
+This program draws the dragon curve, a plane filling curve, recursively with turtle graphis, using the cairo lib.
+The dragon curve is so awesome [Donald Knuth has one made up of tiles in his house.](https://www.youtube.com/watch?v=v678Em6qyzk)
 
-    ./dragon_breath num
+It's implemented in turtle graphics with cairo, so be shure to have the cairo libs installed.
 
-for a dragon of depth _num_. Output goes to alduin.svg
+Running
+
+    make
+    ./dragon_curve <depth>
+
+should compile and draw a dragon of given depth in .svg to the *dragon.svg* file.
+
+*Note* viewport overflows are not handled.
+

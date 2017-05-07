@@ -50,7 +50,7 @@ int main(int argc, char **argv)
 void dragon_draw(int h_size, int v_size, int line_len, int depth)
 {
 	cairo_surface_t *surface;
-	surface = cairo_svg_surface_create("alduin.svg", h_size, v_size);
+	surface = cairo_svg_surface_create("dragon.svg", h_size, v_size);
 	cairo_t * cr;
 	cr = cairo_create(surface);
 	

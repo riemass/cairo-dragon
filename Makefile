@@ -1,3 +1,5 @@
+CC=gcc
+CFLAGS=$(shell pkg-config --cflags --libs cairo)
 
 all: main.c
-	gcc main.c -o dragon_breath `pkg-config --cflags --libs cairo`
+	$(CC) main.c $(CFLAGS) -o dragon_curve
