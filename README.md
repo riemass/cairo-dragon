@@ -1,6 +1,6 @@
 # Dragon curve program
 
-![](./example.svg)
+![Dragon curve image](https://rawgit.com/riemass/cairo-dragon/master/example.svg)
 
 This program draws the dragon curve, a plane filling curve, recursively.
 (there was a dynamic solution at some point but it had 2^(depth) memory complexity, 
