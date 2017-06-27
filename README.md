@@ -1,8 +1,11 @@
 # Dragon curve program
 
-![Dragon curve](./example.svg)
+![](./example.svg)
 
-This program draws the dragon curve, a plane filling curve, recursively with turtle graphis, using the cairo lib.
+This program draws the dragon curve, a plane filling curve, recursively.
+(there was a dynamic solution at some point but it had 2^(depth) memory complexity, 
+so it's better this way, unless you have memory to spare)
+
 The dragon curve is so awesome [Donald Knuth has one made up of tiles in his house.](https://www.youtube.com/watch?v=v678Em6qyzk)
 
 It's implemented in turtle graphics with cairo, so be shure to have the cairo libs installed.
